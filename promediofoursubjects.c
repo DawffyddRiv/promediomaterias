@@ -8,7 +8,7 @@ int main(){
 	float suma,promedio;
 	float cal_a,cali_b,cal_c,cal_d;
 		
-	printf("Introduce el nombre del alumno\n");
+	printf("Introduce el nombre del alumno \n");
 	scanf("%s", &nombre);
 	
 	printf("Introduce el apellido paterno \n ");
@@ -26,7 +26,7 @@ int main(){
 		printf("No se permiten calificaciones menores a cero y mayores a 10 \n");
 		if((cal_a>=0) && (cal_a<=10))
 			{
-			printf("vuelve a introducir la calificacion \n");
+			printf("Vuelve a introducir la calificación \n");
 			scanf("%.2f",&cal_a);
 					
 			}
@@ -36,7 +36,7 @@ int main(){
 	printf("Introduce el nombre de la siguiente asignatura  \n");
 	scanf("%s",&subj_b);	
 	
-	printf("Introduce la calificacion de %s \n",subj_b);
+	printf("Introduce la calificación de %s \n",subj_b);
 	scanf("%f", &cali_b);
 	
 	while(cali_b<0 || cali_b>10 )
@@ -44,7 +44,7 @@ int main(){
 		printf("No se permiten calificaciones menores a cero y mayores a 10 \n");
 		if(cali_b>=0||cali_b<=10)
 			{
-			printf("vuelve a introducir la calificacion \n");
+			printf("Vuelve a introducir la calificacion \n");
 			scanf("%.2f",&cali_b);
 					
 			}	
@@ -62,7 +62,7 @@ int main(){
 		printf("No se permiten calificaciones menores a cero y mayores a 10 \n");
 		if(cal_c>=0||cal_c<=10)
 			{
-			printf("vuelve a introducir la calificacion \n");
+			printf("Vuelve a introducir la calificación \n");
 			scanf("%.2f",&cal_c);
 					
 			}	
